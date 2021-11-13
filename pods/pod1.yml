@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: mihttp
+spec:
+  containers:
+  - name: httpd
+    image: httpd
+
+    
